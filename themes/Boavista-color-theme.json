@@ -2,54 +2,37 @@
 	"name": "Pen Paper Coffee",
 	"type": "light",
 	"colors": {
+		// Useful resource https://meyerweb.com/eric/tools/color-blend/
 		"editor.background": "#f8f6f1",
 		"editor.foreground": "#2b3f6a",
-		"tab.activeBorder": "#dad4cf7a",
-
-		"tab.inactiveBackground": "#ebe8df",
+		"editor.lineHighlightBackground": "#f5f0e5",
+		"editor.selectionBackground": "#e4dcc8",
+		"editorLineNumber.foreground": "#9C867E",
+		"editorLineNumber.activeForeground": "#6E4E44",
 		"editorGroupHeader.tabsBackground": "#ebe8df",
-		"tab.border": "#e0dad3",
-		// "editorGroupHeader.tabsBorder": "#ff0000",
-
+		"tab.inactiveBackground": "#ebe8df",
+		"tab.border": "#ebe8df",
+		"tab.hoverBackground": "#E4DFD6",
 		"titleBar.activeBackground": "#e0dad3",
-		"titleBar.inactiveBackground": "#eaeaea",
 		"activityBar.background": "#e0dad3",
 		"activityBar.foreground": "#2a120a",
 		"activityBarBadge.background": "#c16161",
 		"activityBarBadge.foreground": "#f8f6f1",
-
 		"statusBar.background": "#e0dad3",
 		"statusBar.foreground": "#2a120a",
-		"statusBar.border": "#6e4e44",
-
-		// Command/Quick-Menu and Cozntext-Menu
+		// Command/Quick-Menu and Context-Menu
 		"menu.background": "#ebe8df",
 		"quickInput.background": "#ebe8df",
-
 		"menu.foreground": "#2b3f6a",
 		"quickInput.foreground": "#2b3f6a",
-
 		"quickInputList.focusBackground": "#e4dcc8",
 		"menu.selectionBackground": "#e4dcc8",
-
 		"quickInputList.focusForeground": "#2a120a",
 		"quickInputList.focusIconForeground": "#2a120a",
 		"menu.selectionForeground": "#2a120a",
-
-
-
 		"input.background": "#f8f6f1",
 		"input.foreground": "#2b3f6a",
-		"editorGutter.background": "#e0dad3",
-
-		"editorLineNumber.foreground": "#6e4e44",
-		"editorLineNumber.activeForeground": "#2a120a",
-		"editor.lineHighlightBackground": "#f5f0e5",
-		"editor.selectionBackground": "#e4dcc8",
-
-
 		"sideBar.background": "#ebe8df",
-
 		"list.activeSelectionForeground": "#2b3f6a",
 		"list.focusOutline": "#ff000000",
 		"list.hoverBackground": "#d2b49322",
@@ -57,14 +40,6 @@
 		"list.activeSelectionBackground": "#d2b493",
 		"list.inactiveSelectionForeground": "#2b3f6a",
 		"list.inactiveSelectionBackground": "#e0dad3",
-
-		// TODO: could the focusBorder look/feel better?
-		"focusBorder": "#d2b493"
-
-
-
-		// "editorBracketMatch.background": "#eda9fb9c"
-
 	},
 	"tokenColors": [
 		{
@@ -87,9 +62,17 @@
 			}
 		},
 		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
 			"name": "Comments",
 			"scope": [
-				"comment"
+				"comment",
+				"punctuation.definition.comment"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -130,7 +113,6 @@
 				"foreground": "#5e78e1"
 			}
 		},
-
 		{
 			"name": "Control",
 			"scope": [
@@ -174,14 +156,34 @@
 			}
 		},
 		{
-			"name": "special variables",
+			"name": "Parameter Variables",
 			"scope": [
 				"variable.parameter",
 				"support.variable",
-				"variable.other.member"
+				"variable.other.member",
 			],
 			"settings": {
 				"foreground": "#5e78e1"
+			}
+		},
+		{
+			"name": "Python: Variable Self",
+			"scope": [
+				"variable.language.special.self.python",
+			],
+			"settings": {
+				"foreground": "#2b3f6a",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python: Parameter Self",
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+			],
+			"settings": {
+				"foreground": "#5e78e1",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -195,6 +197,25 @@
 				"foreground": "#d08e25"
 			}
 		},
+		{
+			"name": "Function Call",
+			"scope": [
+				"meta.function-call.generic",
+			],
+			"settings": {
+				"foreground": "#d08e25"
+			}
+		},
+		{
+			"name": "Member Access",
+			"scope": [
+				"meta.member.access",
+			],
+			"settings": {
+				"foreground": "#2b3f6a"
+			}
+		},
+
 		{
 			"name": "Classes",
 			"scope": [
@@ -243,7 +264,10 @@
 		},
 		{
 			"name": "Strings",
-			"scope": ["string", "punctuation.definition.string"],
+			"scope": [
+				"string",
+				"punctuation.definition.string"
+			],
 			"settings": {
 				"foreground": "#8f6928"
 			}
@@ -264,16 +288,12 @@
 		},
 		{
 			"name": "Variable other constant",
-			"scope": ["constant.other.symbol", "variable.other.constant"],
+			"scope": [
+				"constant.other.symbol",
+				"variable.other.constant"
+			],
 			"settings": {
 				"foreground": "#c16161"
-			}
-		},
-		{
-			"name": "Punctuation",
-			"scope": "punctuation",
-			"settings": {
-				"foreground": "#777777"
 			}
 		},
 		{
@@ -427,7 +447,6 @@
 				"foreground": "#777777"
 			}
 		},
-
 		{
 			"name": "Markup: Heading",
 			"scope": "markup entity.name.section",
@@ -494,7 +513,6 @@
 				"foreground": "#8f932b"
 			}
 		},
-
 		{
 			"name": "Markup Inline",
 			"scope": "punctuation.definition.bold.markdown",
@@ -516,12 +534,10 @@
 				"foreground": "#2b3f6a"
 			}
 		},
-
 		{
 			"name": "Bibtex key",
 			"scope": [
 				"support.function.text.markdown",
-
 				// scope when "Pandoc Citer" extension enabled:
 				"string.other.link.description.markdown.citation"
 			],
@@ -569,8 +585,5 @@
 				"foreground": "#c16161"
 			}
 		},
-
-
-
 	]
 }
