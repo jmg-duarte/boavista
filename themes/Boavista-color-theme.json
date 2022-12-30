@@ -2,44 +2,68 @@
 	"name": "Pen Paper Coffee",
 	"type": "light",
 	"colors": {
+		// "#d74c4c"
+		// "#e89f9b"
+		// "#fbf7ef"
+		// "#5573ec"
+		// "#1c3978"
+
 		// Useful resource https://meyerweb.com/eric/tools/color-blend/
-		"editor.background": "#f8f6f1",
-		"editor.foreground": "#2b3f6a",
+
+		// Editor
+		"editor.background": "#fbf7ef",
+		"editor.foreground": "#1c3978",
 		"editor.lineHighlightBackground": "#f5f0e5",
 		"editor.selectionBackground": "#e4dcc8",
 		"editorLineNumber.foreground": "#9C867E",
 		"editorLineNumber.activeForeground": "#6E4E44",
 		"editorGroupHeader.tabsBackground": "#ebe8df",
+		// Tabs
 		"tab.inactiveBackground": "#ebe8df",
 		"tab.border": "#ebe8df",
 		"tab.hoverBackground": "#E4DFD6",
 		"titleBar.activeBackground": "#e0dad3",
+		// Side bars
 		"activityBar.background": "#e0dad3",
-		"activityBar.foreground": "#2a120a",
-		"activityBarBadge.background": "#c16161",
-		"activityBarBadge.foreground": "#f8f6f1",
-		"statusBar.background": "#e0dad3",
-		"statusBar.foreground": "#2a120a",
+		"activityBar.foreground": "#0C1832",
+		"activityBarBadge.background": "#d74c4c",
+		"activityBarBadge.foreground": "#fbf7ef",
+		// Bottom bar
+		"statusBar.background": "#F3E7CE",
+		"statusBar.foreground": "#0C1832",
 		// Command/Quick-Menu and Context-Menu
 		"menu.background": "#ebe8df",
 		"quickInput.background": "#ebe8df",
-		"menu.foreground": "#2b3f6a",
-		"quickInput.foreground": "#2b3f6a",
+		"menu.foreground": "#1c3978",
+		"quickInput.foreground": "#1c3978",
 		"quickInputList.focusBackground": "#e4dcc8",
 		"menu.selectionBackground": "#e4dcc8",
-		"quickInputList.focusForeground": "#2a120a",
-		"quickInputList.focusIconForeground": "#2a120a",
-		"menu.selectionForeground": "#2a120a",
-		"input.background": "#f8f6f1",
-		"input.foreground": "#2b3f6a",
+		"quickInputList.focusForeground": "#0C1832",
+		"quickInputList.focusIconForeground": "#0C1832",
+		"menu.selectionForeground": "#0C1832",
+		"input.background": "#fbf7ef",
+		"input.foreground": "#1c3978",
 		"sideBar.background": "#ebe8df",
-		"list.activeSelectionForeground": "#2b3f6a",
+		"list.activeSelectionForeground": "#1c3978",
 		"list.focusOutline": "#ff000000",
 		"list.hoverBackground": "#d2b49322",
-		"list.hoverForeground": "#2b3f6a",
+		"list.hoverForeground": "#1c3978",
 		"list.activeSelectionBackground": "#d2b493",
-		"list.inactiveSelectionForeground": "#2b3f6a",
+		"list.inactiveSelectionForeground": "#1c3978",
 		"list.inactiveSelectionBackground": "#e0dad3",
+		// Buttons
+		"button.foreground": "#fbf7ef",
+		"button.background": "#d74c4c",
+		"button.hoverBackground": "#C34545",
+		"button.separator": "#fbf7ef",
+		// Checkbox
+		"checkbox.foreground": "#fbf7ef",
+		"checkbox.background": "#d74c4c",
+		// Dropdown
+		"dropdown.background": "#fbf7ef",
+		"dropdown.border": "#fbf7ef",
+		// Focus border - global unless specified by the element
+		"focusBorder": "#E07775"
 	},
 	"tokenColors": [
 		{
@@ -48,7 +72,7 @@
 				"variable"
 			],
 			"settings": {
-				"foreground": "#2b3f6a"
+				"foreground": "#1c3978"
 			}
 		},
 		{
@@ -58,7 +82,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#2b3f6a"
+				"foreground": "#1c3978"
 			}
 		},
 		{
@@ -92,7 +116,7 @@
 			"name": "Invalid - Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "#c16161"
+				"foreground": "#d74c4c"
 			}
 		},
 		{
@@ -110,7 +134,7 @@
 				"storage"
 			],
 			"settings": {
-				"foreground": "#5e78e1"
+				"foreground": "#5573ec"
 			}
 		},
 		{
@@ -119,8 +143,8 @@
 				"keyword.control"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#2b3f6a"
+				"fontStyle": "italic",
+				"foreground": "#3956B2"
 			}
 		},
 		{
@@ -132,7 +156,7 @@
 				"meta.objectliteral"
 			],
 			"settings": {
-				"foreground": "#5e78e1"
+				"foreground": "#5573ec"
 			}
 		},
 		{
@@ -142,7 +166,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#5e78e1"
+				"foreground": "#5573ec"
 			}
 		},
 		{
@@ -152,7 +176,7 @@
 				"support.constant"
 			],
 			"settings": {
-				"foreground": "#c16161"
+				"foreground": "#d74c4c"
 			}
 		},
 		{
@@ -163,7 +187,7 @@
 				"variable.other.member",
 			],
 			"settings": {
-				"foreground": "#5e78e1"
+				"foreground": "#5573ec"
 			}
 		},
 		{
@@ -172,7 +196,7 @@
 				"variable.language.special.self.python",
 			],
 			"settings": {
-				"foreground": "#2b3f6a",
+				"foreground": "#1c3978",
 				"fontStyle": "italic"
 			}
 		},
@@ -182,8 +206,18 @@
 				"variable.parameter.function.language.special.self.python",
 			],
 			"settings": {
-				"foreground": "#5e78e1",
+				"foreground": "#5573ec",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python: Underline Self",
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python"
+			],
+			"settings": {
+				"fontStyle": "underline"
 			}
 		},
 		{
@@ -212,7 +246,7 @@
 				"meta.member.access",
 			],
 			"settings": {
-				"foreground": "#2b3f6a"
+				"foreground": "#1c3978"
 			}
 		},
 
@@ -224,6 +258,7 @@
 				"support.class"
 			],
 			"settings": {
+				"foreground": "#3956B2",
 				"fontStyle": "bold"
 			}
 		},
@@ -259,7 +294,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#c16161"
+				"foreground": "#d74c4c"
 			}
 		},
 		{
@@ -293,7 +328,7 @@
 				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#c16161"
+				"foreground": "#d74c4c"
 			}
 		},
 		{
@@ -302,7 +337,7 @@
 				"punctuation.definition.template-expression"
 			],
 			"settings": {
-				"foreground": "#c16161"
+				"foreground": "#d74c4c"
 			}
 		},
 		{
@@ -398,7 +433,7 @@
 			"name": "Markup: Deletion",
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#c16161"
+				"foreground": "#d74c4c"
 			}
 		},
 		{
@@ -452,14 +487,14 @@
 			"scope": "markup entity.name.section",
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#2a120a"
+				"foreground": "#0C1832"
 			}
 		},
 		{
 			"name": "Markup: Heading",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#2a120a"
+				"foreground": "#0C1832"
 			}
 		},
 		{
@@ -531,7 +566,7 @@
 			"name": "Markup link title",
 			"scope": "string.other.link.title.markdown",
 			"settings": {
-				"foreground": "#2b3f6a"
+				"foreground": "#1c3978"
 			}
 		},
 		{
@@ -582,7 +617,7 @@
 			"name": "git line too long",
 			"scope": "invalid.deprecated.line-too-long.git-commit",
 			"settings": {
-				"foreground": "#c16161"
+				"foreground": "#d74c4c"
 			}
 		},
 	]
