@@ -2,57 +2,66 @@
 	"name": "Pen Paper Coffee",
 	"type": "light",
 	"colors": {
-		// "#c54029"
-		// "#e89f9b"
-		// "#fbf7ef" - "#F3E7CE"
-		// "#5573ec"
-		// "#1c3978"
-		// "#102144"
 		// Useful resource https://meyerweb.com/eric/tools/color-blend/
 		// Editor
 		"editor.background": "#F6EFE4",
 		"editor.foreground": "#102144",
-		"editor.lineHighlightBackground": "#FBE9DA",
-		"editor.selectionBackground": "#F9DEC8",
+		"editor.lineHighlightBackground": "#F3E5D9",
+		"editor.selectionBackground": "#F4C7B7",
+		"editor.selectionHighlightBackground": "#F4C7B7",
+		"editorGroup.border": "#F4C7B7",
 		"editorLineNumber.foreground": "#DE9887",
-		"editorLineNumber.activeForeground": "#B33305",
-		"editorGroupHeader.tabsBackground": "#FBEADA",
+		"editorLineNumber.activeForeground": "#c54029",
 		// Tabs
-		"tab.inactiveBackground": "#FBEADA",
+		"editorGroupHeader.tabsBackground": "#F3E5D9",
+		"tab.inactiveBackground": "#F5EADF",
 		"tab.border": "#ebe8df",
-		"tab.hoverBackground": "#FCECDC",
+		"tab.hoverBackground": "#F5EADF",
 		// Activity bars
 		"activityBar.background": "#F3E5D9",
 		"activityBar.foreground": "#102144",
+		// "activityBar.border": "#F4C7B7",
+		"activityBar.inactiveForeground": "#173163",
 		"activityBarBadge.background": "#c54029",
 		"activityBarBadge.foreground": "#fbf7ef",
 		// Side bar
 		"sideBar.background": "#F5EADF",
 		"sideBar.foreground": "#102144",
-		"sideBarSectionHeader.background": "#F0DACD",
+		// "sideBar.border": "#F4C7B7",
+		"sideBarSectionHeader.background": "#F5DED0",
+		"sideBarSectionHeader.border": "#F4C7B7",
 		// Bottom bar
 		"statusBar.background": "#F3E5D9",
 		"statusBar.foreground": "#102144",
+		// "statusBar.border": "#F4C7B7",
+		// Bottom panel
+		"panel.border": "#F4C7B7",
+		"panelTitle.activeForeground": "#102144",
+		"panelTitle.inactiveForeground": "#102144",
 		// Title bar
-		"titleBar.activeBackground": "#e0dad3",
+		"titleBar.activeBackground": "#F3E5D9",
+		"titleBar.inactiveBackground": "#F3E5D9",
+		// "titleBar.border": "#F4C7B7",
+		// Input
+		"input.background": "#F6EFE4",
+		"input.foreground": "#102144",
+		"input.border": "#F4C7B7",
 		// Command/and Context-Menu
 		"menu.background": "#F3E5D9",
 		"menu.foreground": "#102144",
 		"menu.selectionBackground": "#F3E5D9",
 		"menu.selectionForeground": "#102144",
-		"input.background": "#F3E5D9",
-		"input.foreground": "#1c3978",
-		"list.activeSelectionForeground": "#1c3978",
+		"list.activeSelectionForeground": "#102144",
 		"list.focusOutline": "#ff000000",
 		"list.hoverBackground": "#d2b49322",
-		"list.hoverForeground": "#1c3978",
+		"list.hoverForeground": "#102144",
 		"list.activeSelectionBackground": "#d2b493",
-		"list.inactiveSelectionForeground": "#1c3978",
+		"list.inactiveSelectionForeground": "#102144",
 		"list.inactiveSelectionBackground": "#e0dad3",
 		// Quick Input
-		"quickInput.background": "#ebe8df",
+		"quickInput.background": "#F5EADF",
 		"quickInput.foreground": "#102144",
-		"quickInputList.focusBackground": "#e4dcc8",
+		"quickInputList.focusBackground": "#F5DED0",
 		"quickInputList.focusForeground": "#c54029",
 		"quickInputList.focusIconForeground": "#102144",
 		// Buttons
@@ -70,6 +79,7 @@
 		"focusBorder": "#c54029",
 		// Notifications
 		"notifications.background": "#fbf7ef",
+		// TODO: editorWidget + editorBracketHighlight + editorCodeLens
 	},
 	"tokenColors": [
 		// C54029 - ... - FCF7ED - ... - 102144
