@@ -1,8 +1,16 @@
 {
   "name": "boavista",
   "displayName": "Boavista",
-  "description": "",
+  "description": "A light theme for VSCode.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmg-duarte/boavista"
+  },
+  "homepage": "https://github.com/jmg-duarte/boavista",
+  "bugs": {
+    "url": "https://github.com/jmg-duarte/boavista/issues"
+  },
   "engines": {
     "vscode": "^1.65.0"
   },
@@ -17,5 +25,8 @@
         "path": "./themes/Boavista-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.16.0"
   }
 }
