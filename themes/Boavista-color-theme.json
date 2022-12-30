@@ -4,7 +4,7 @@
 	"colors": {
 		// "#d74c4c"
 		// "#e89f9b"
-		// "#fbf7ef"
+		// "#fbf7ef" - "#F3E7CE"
 		// "#5573ec"
 		// "#1c3978"
 
@@ -31,15 +31,11 @@
 		// Bottom bar
 		"statusBar.background": "#F3E7CE",
 		"statusBar.foreground": "#0C1832",
-		// Command/Quick-Menu and Context-Menu
+		// Title bar
+		// Command/and Context-Menu
 		"menu.background": "#ebe8df",
-		"quickInput.background": "#ebe8df",
-		"menu.foreground": "#1c3978",
-		"quickInput.foreground": "#1c3978",
-		"quickInputList.focusBackground": "#e4dcc8",
+		"menu.foreground": "#0C1832",
 		"menu.selectionBackground": "#e4dcc8",
-		"quickInputList.focusForeground": "#0C1832",
-		"quickInputList.focusIconForeground": "#0C1832",
 		"menu.selectionForeground": "#0C1832",
 		"input.background": "#fbf7ef",
 		"input.foreground": "#1c3978",
@@ -51,6 +47,12 @@
 		"list.activeSelectionBackground": "#d2b493",
 		"list.inactiveSelectionForeground": "#1c3978",
 		"list.inactiveSelectionBackground": "#e0dad3",
+		// Quick Input
+		"quickInput.background": "#ebe8df",
+		"quickInput.foreground": "#0C1832",
+		"quickInputList.focusBackground": "#e4dcc8",
+		"quickInputList.focusForeground": "#C34545",
+		"quickInputList.focusIconForeground": "#0C1832",
 		// Buttons
 		"button.foreground": "#fbf7ef",
 		"button.background": "#d74c4c",
