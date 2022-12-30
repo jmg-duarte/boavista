@@ -63,7 +63,10 @@
 		"dropdown.background": "#fbf7ef",
 		"dropdown.border": "#fbf7ef",
 		// Focus border - global unless specified by the element
-		"focusBorder": "#E07775"
+		"focusBorder": "#E07775",
+		// Notifications
+		"notifications.background": "#fbf7ef",
+		"notificationsInfoIcon.foreground": "#5573EC"
 	},
 	"tokenColors": [
 		{
