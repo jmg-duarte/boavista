@@ -28,5 +28,8 @@
   },
   "dependencies": {
     "@vscode/vsce": "^2.16.0"
+  },
+  "configurationDefaults": {
+    "editor.semanticHighlighting.enabled": true
   }
 }

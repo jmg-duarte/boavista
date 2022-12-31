@@ -6,8 +6,8 @@
 		// Editor
 		"editor.background": "#FBF3E9",
 		"editor.foreground": "#102144",
-		"editor.lineHighlightBackground": "#F3E5D9",
-		"editor.selectionBackground": "#F4C7B7",
+		"editor.lineHighlightBackground": "#FAECE2",
+		"editor.selectionBackground": "#F8E4DB",
 		"editor.selectionHighlightBackground": "#F4C7B7",
 		"editorGroup.border": "#F4C7B7",
 		"editorLineNumber.foreground": "#DE9887",
@@ -24,7 +24,7 @@
 		"activityBar.background": "#F3E5D9",
 		"activityBar.foreground": "#102144",
 		// "activityBar.border": "#F4C7B7",
-		"activityBar.inactiveForeground": "#93A5C8",
+		// "activityBar.inactiveForeground": "#93A5C8",
 		"activityBarBadge.background": "#c54029",
 		"activityBarBadge.foreground": "#fbf7ef",
 		// Side bar
@@ -70,7 +70,7 @@
 		// Buttons
 		"button.foreground": "#fbf7ef",
 		"button.background": "#c54029",
-		"button.hoverBackground": "#B33305",
+		"button.hoverBackground": "#B33305", // Rust color
 		"button.separator": "#fbf7ef",
 		// Checkbox
 		"checkbox.foreground": "#fbf7ef",
@@ -82,7 +82,59 @@
 		"focusBorder": "#c54029",
 		// Notifications
 		"notifications.background": "#fbf7ef",
-		// TODO: editorWidget + editorBracketHighlight + editorCodeLens
+		// TODO: editorBracketHighlight + editorCodeLens
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"*.builtin":{"fontStyle": "bold"},
+		"*.deprecated": {"fontStyle": "strikethrough"},
+		"*.controlFlow":{
+			"fontStyle": "italic"
+		},
+		"class": {
+			"foreground": "#B33305",
+			"fontStyle": "italic"
+		},
+		"module": {
+			"foreground": "#2F54B1",
+			"fontStyle": "italic"
+		},
+		"enumMember": {"fontStyle": "underline"},
+		// Types
+		"type": {
+			"foreground": "#B33305",
+			"fontStyle": "italic"
+		},
+		"typeAlias": {
+			"foreground": "#B33305",
+			"fontStyle": "italic"
+		},
+		"*.typeHint": {
+			"foreground": "#B33305",
+			"fontStyle": "italic"
+		},
+		"*.typeHintComment": {
+			"fontStyle": "italic"
+		},
+		// Functions / Methods
+		"method": {"foreground": "#B33305"},
+		"function": {"foreground": "#B33305"},
+		"magicFunction": {
+			"foreground": "#B33305",
+			"fontStyle": "italic"
+		},
+		// Function Parameters
+		"parameter": {
+			"fontStyle": "italic"
+		},
+		// Variables
+		"variable": "#2F54B1",
+		"property": "#2F54B1",
+		"variable.readonly": {"fontStyle": "underline"},
+		"property.readonly": {"fontStyle": "underline"},
+		"selfKeyword": {"fontStyle": "underline"},
+		"selfParameter": {"fontStyle": "underline"},
+		"selfTypeKeyword": {"fontStyle": "underline"},
 	},
 	"tokenColors": [
 		// C54029 - ... - FCF7ED - ... - 102144
@@ -105,7 +157,7 @@
 				"string.quoted.single.python",
 			],
 			"settings": {
-				"foreground": "#3F67DF",
+				"foreground": "#366D5F",
 				"fontStyle": "" // Empty to enforce no style
 			}
 		},
@@ -118,35 +170,42 @@
 			}
 		},
 		{
-			"name": "Constant Variables",
-			"scope": [
-				"constant.other"
-			],
+			"name": "Python: Control Flow",
+			"scope": "keyword.control.flow.python",
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold italic",
 			}
 		},
-		{
-			"name": "Constant Literals",
-			"scope": [
-				"constant.numeric",
-				"constant.rgb-value",
-				"constant.other.color" // This one is for colors in CSS
-			],
-			"settings": {
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Operators",
-			"scope": [
-				"keyword.operator.arithmetic",
-				"keyword.operator.logical",
-			],
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
+		// {
+		// 	"name": "Constant Variables",
+		// 	"scope": [
+		// 		"constant.other"
+		// 	],
+		// 	"settings": {
+		// 		"fontStyle": "bold"
+		// 	}
+		// },
+		// {
+		// 	"name": "Constant Literals",
+		// 	"scope": [
+		// 		"constant.numeric",
+		// 		"constant.rgb-value",
+		// 		"constant.other.color" // This one is for colors in CSS
+		// 	],
+		// 	"settings": {
+		// 		"fontStyle": ""
+		// 	}
+		// },
+		// {
+		// 	"name": "Operators",
+		// 	"scope": [
+		// 		"keyword.operator.arithmetic",
+		// 		"keyword.operator.logical",
+		// 	],
+		// 	"settings": {
+		// 		"fontStyle": "italic"
+		// 	}
+		// },
 		{
 			"name": "Keywords",
 			"scope": [
@@ -158,127 +217,116 @@
 				"foreground": "#102144"
 			}
 		},
-		{
-			"name": "Variables",
-			"scope": [
-				"variable"
-			],
-			"settings": {
-				"foreground": "#3F67DF"
-			}
-		},
-		{
-			"name": "Python: Self",
-			"scope": [
-				"variable.parameter.function.language.special.self.python",
-				"variable.language.special.self.python",
-				"variable.language.self.rust",
-			],
-			"settings": {
-				"fontStyle": "underline"
-			}
-		},
-		{
-			"name": "Python: Storage Keywords",
-			// e.g. class, def, lambda
-			"scope": [
-				"storage.type.class.python",
-				"storage.type.function.python",
-				"storage.type.function.lambda.python",
-			],
-			"settings": {
-				"foreground": "#102144",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Python: Magic Functions",
-			"scope": [
-				"support.function.magic.python"
-			],
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Python: Class",
-			"scope": [
-				"entity.name.type.class.python"
-			],
-			"settings": {
-				"foreground": "#3F67DF",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Python: Import/From",
-			"scope": ["keyword.control.import.python"],
-			"settings": {
-				"fontStyle": "italic bold"
-			}
-		},
-		{
-			"name": "Function",
-			"scope": [
-				"support.function",
-				"entity.name.function",
-			],
-			"settings": {
-				"foreground": "#C54029",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Function Parameters",
-			"scope": [
-				"variable.parameter"
-			],
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Function Call",
-			"scope": [
-				"meta.function-call.generic",
-				"meta.function-call",
-			],
-			"settings": {
-				"foreground": "#C54029",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Types",
-			"scope": [
-				"support.type",
-				"storage.type"
-			],
-			"settings": {
-				"foreground": "#C54029",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Rust: Keyword",
-			"scope": [
-				"storage.type.rust",
-				"keyword.other.rust",
-			],
-			"settings": {
-				"foreground": "#102144",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Punctuation",
-			"scope": [
-				"punctuation.definition"
-			],
-			"settings": {
-				"fontStyle": ""
-			}
-		}
+		// {
+		// 	"name": "Variables",
+		// 	"scope": [
+		// 		"variable"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#3F67DF"
+		// 	}
+		// },
+		// {
+		// 	"name": "Python: Storage Keywords",
+		// 	// e.g. class, def, lambda
+		// 	"scope": [
+		// 		"storage.type.class.python",
+		// 		"storage.type.function.python",
+		// 		"storage.type.function.lambda.python",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#102144",
+		// 		"fontStyle": "bold"
+		// 	}
+		// },
+		// {
+		// 	"name": "Python: Magic Functions",
+		// 	"scope": [
+		// 		"support.function.magic.python"
+		// 	],
+		// 	"settings": {
+		// 		"fontStyle": "italic"
+		// 	}
+		// },
+		// {
+		// 	"name": "Python: Class",
+		// 	"scope": [
+		// 		"entity.name.type.class.python"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#3F67DF",
+		// 		"fontStyle": "italic"
+		// 	}
+		// },
+		// {
+		// 	"name": "Python: Import/From",
+		// 	"scope": ["keyword.control.import.python"],
+		// 	"settings": {
+		// 		"fontStyle": "bold"
+		// 	}
+		// },
+		// {
+		// 	"name": "Function",
+		// 	"scope": [
+		// 		"support.function",
+		// 		"entity.name.function",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#C54029",
+		// 		"fontStyle": ""
+		// 	}
+		// },
+		// {
+		// 	"name": "Function Parameters",
+		// 	"scope": [
+		// 		"variable.parameter"
+		// 	],
+		// 	"settings": {
+		// 		"fontStyle": "italic"
+		// 	}
+		// },
+		// {
+		// 	"name": "Function Call",
+		// 	"scope": [
+		// 		"meta.function-call.generic",
+		// 		"meta.function-call",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#C54029",
+		// 		"fontStyle": "italic"
+		// 	}
+		// },
+		// {
+		// 	"name": "Types",
+		// 	"scope": [
+		// 		"support.type",
+		// 		"storage.type"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#C54029",
+		// 		"fontStyle": "italic"
+		// 	}
+		// },
+		// {
+		// 	"name": "Rust: Keyword",
+		// 	"scope": [
+		// 		"storage.type.rust",
+		// 		"keyword.other.rust",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#102144",
+		// 		"fontStyle": "bold"
+		// 	}
+		// },
+		// {
+		// 	"name": "Punctuation",
+		// 	"scope": [
+		// 		"punctuation.definition"
+		// 	],
+		// 	"settings": {
+		// 		"fontStyle": ""
+		// 	}
+		// }
 		// {
 		// 	"name": "Property Names (CSS, JSON, ...)",
 		// 	"scope": [
