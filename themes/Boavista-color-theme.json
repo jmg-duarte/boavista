@@ -4,7 +4,7 @@
 	"colors": {
 		// Useful resource https://meyerweb.com/eric/tools/color-blend/
 		// Editor
-		"editor.background": "#F6EFE4",
+		"editor.background": "#FBF3E9",
 		"editor.foreground": "#102144",
 		"editor.lineHighlightBackground": "#F3E5D9",
 		"editor.selectionBackground": "#F4C7B7",
@@ -12,20 +12,23 @@
 		"editorGroup.border": "#F4C7B7",
 		"editorLineNumber.foreground": "#DE9887",
 		"editorLineNumber.activeForeground": "#c54029",
+		"editorWidget.background": "#FBF3E9",
+		"editorWidget.foreground": "#102144",
+		"editorWidget.border": "#F4C7B7",
 		// Tabs
 		"editorGroupHeader.tabsBackground": "#F3E5D9",
-		"tab.inactiveBackground": "#F5EADF",
-		"tab.border": "#ebe8df",
-		"tab.hoverBackground": "#F5EADF",
+		"tab.inactiveBackground": "#FAEEE4",
+		// "tab.border": "#F4C7B7",
+		"tab.hoverBackground": "#FAEEE4",
 		// Activity bars
 		"activityBar.background": "#F3E5D9",
 		"activityBar.foreground": "#102144",
 		// "activityBar.border": "#F4C7B7",
-		"activityBar.inactiveForeground": "#173163",
+		"activityBar.inactiveForeground": "#93A5C8",
 		"activityBarBadge.background": "#c54029",
 		"activityBarBadge.foreground": "#fbf7ef",
 		// Side bar
-		"sideBar.background": "#F5EADF",
+		"sideBar.background": "#FAEEE4",
 		"sideBar.foreground": "#102144",
 		// "sideBar.border": "#F4C7B7",
 		"sideBarSectionHeader.background": "#F5DED0",
@@ -43,7 +46,7 @@
 		"titleBar.inactiveBackground": "#F3E5D9",
 		// "titleBar.border": "#F4C7B7",
 		// Input
-		"input.background": "#F6EFE4",
+		"input.background": "#FBF3E9",
 		"input.foreground": "#102144",
 		"input.border": "#F4C7B7",
 		// Command/and Context-Menu
@@ -59,7 +62,7 @@
 		"list.inactiveSelectionForeground": "#102144",
 		"list.inactiveSelectionBackground": "#e0dad3",
 		// Quick Input
-		"quickInput.background": "#F5EADF",
+		"quickInput.background": "#FAEEE4",
 		"quickInput.foreground": "#102144",
 		"quickInputList.focusBackground": "#F5DED0",
 		"quickInputList.focusForeground": "#c54029",
