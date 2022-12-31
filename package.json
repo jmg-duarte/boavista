@@ -2,6 +2,7 @@
   "name": "boavista",
   "displayName": "Boavista",
   "description": "A light theme for VSCode.",
+  "publisher": "jmg-duarte",
   "version": "0.0.1",
   "repository": {
     "type": "git",
