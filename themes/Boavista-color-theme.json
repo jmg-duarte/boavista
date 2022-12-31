@@ -1,8 +1,11 @@
 {
-	"name": "Pen Paper Coffee",
+	// Palette: https://coolors.co/b33305-c54029-d26b57-df9585-f9e9e0-366d5f-2f54b1-1c346e-102144
+	// Useful resource: https://meyerweb.com/eric/tools/color-blend/
+	"name": "Boavista",
 	"type": "light",
 	"colors": {
-		// Useful resource https://meyerweb.com/eric/tools/color-blend/
+		// Focus border - global unless specified by the element
+		"focusBorder": "#CC5640",
 		// Editor
 		"editor.background": "#FBF3E9",
 		"editor.foreground": "#102144",
@@ -49,18 +52,18 @@
 		"input.background": "#FBF3E9",
 		"input.foreground": "#102144",
 		"input.border": "#F4C7B7",
-		// Command/and Context-Menu
-		"menu.background": "#F3E5D9",
+		// Menu (not used on MacOS)
+		"menu.background": "#FBF3E9",
 		"menu.foreground": "#102144",
 		"menu.selectionBackground": "#F3E5D9",
 		"menu.selectionForeground": "#102144",
-		"list.activeSelectionForeground": "#102144",
-		"list.focusOutline": "#ff000000",
-		"list.hoverBackground": "#d2b49322",
+		// List
+		"list.hoverBackground": "#F3E5D9",
 		"list.hoverForeground": "#102144",
-		"list.activeSelectionBackground": "#d2b493",
+		"list.activeSelectionForeground": "#102144",
+		"list.activeSelectionBackground": "#F3E5D9",
 		"list.inactiveSelectionForeground": "#102144",
-		"list.inactiveSelectionBackground": "#e0dad3",
+		"list.inactiveSelectionBackground": "#F3E5D9",
 		// Quick Input
 		"quickInput.background": "#FAEEE4",
 		"quickInput.foreground": "#102144",
@@ -73,13 +76,11 @@
 		"button.hoverBackground": "#B33305", // Rust color
 		"button.separator": "#fbf7ef",
 		// Checkbox
-		"checkbox.foreground": "#fbf7ef",
-		"checkbox.background": "#c54029",
+		"checkbox.foreground": "#c54029",
+		"checkbox.background": "#F3E5D9",
 		// Dropdown
-		"dropdown.background": "#fbf7ef",
-		"dropdown.border": "#fbf7ef",
-		// Focus border - global unless specified by the element
-		"focusBorder": "#c54029",
+		"dropdown.background": "#FBF3E9",
+		"dropdown.border": "#F4C7B7",
 		// Notifications
 		"notifications.background": "#fbf7ef",
 		// TODO: editorBracketHighlight + editorCodeLens
@@ -157,7 +158,7 @@
 				"string.quoted.single.python",
 			],
 			"settings": {
-				"foreground": "#366D5F",
+				"foreground": "#276E48",
 				"fontStyle": "" // Empty to enforce no style
 			}
 		},
@@ -185,25 +186,25 @@
 		// 		"fontStyle": "bold"
 		// 	}
 		// },
-		// {
-		// 	"name": "Constant Literals",
-		// 	"scope": [
-		// 		"constant.numeric",
-		// 		"constant.rgb-value",
-		// 		"constant.other.color" // This one is for colors in CSS
-		// 	],
-		// 	"settings": {
-		// 		"fontStyle": ""
-		// 	}
-		// },
+		{
+			"name": "Constant Literals",
+			"scope": [
+				"constant.numeric",
+				"constant.language.json.comments",
+			],
+			"settings": {
+				"foreground": "#B33305"
+			}
+		},
 		// {
 		// 	"name": "Operators",
 		// 	"scope": [
 		// 		"keyword.operator.arithmetic",
 		// 		"keyword.operator.logical",
+		// 		"keyword.operator.comparison"
 		// 	],
 		// 	"settings": {
-		// 		"fontStyle": "italic"
+		// 		"fontStyle": ""
 		// 	}
 		// },
 		{
