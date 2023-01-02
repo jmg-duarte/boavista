@@ -222,6 +222,38 @@
 				"foreground": "#102144"
 			}
 		},
+		{
+			"name": "SQL: Functions",
+			"scope": [
+				"support.function.expression.sql",
+				"support.function.aggregate.sql",
+				"support.function.ranking.sql",
+				"support.function.conversion.sql"
+			],
+			"settings": {
+				"foreground": "#2A5DDE",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "SQL: Database/Table Name",
+			"scope": [
+				"constant.other.database-name.sql",
+				"constant.other.table-name.sql"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "SQL: Type",
+			"scope": [
+				"storage.type.sql",
+			],
+			"settings": {
+				"foreground": "#C54029",
+			}
+		}
 		// {
 		// 	"name": "Variables",
 		// 	"scope": [
