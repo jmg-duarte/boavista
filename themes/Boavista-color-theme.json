@@ -39,6 +39,7 @@
 		// Bottom bar
 		"statusBar.background": "#F3E5D9",
 		"statusBar.foreground": "#102144",
+		"statusBar.noFolderBackground": "#F3E5D9",
 		// "statusBar.border": "#F4C7B7",
 		// Bottom panel
 		"panel.border": "#F4C7B7",
