@@ -109,6 +109,7 @@
 			"fontStyle": "italic"
 		},
 		"enumMember": {
+			"foreground": "#2F54B1",
 			"fontStyle": "underline"
 		},
 		// Types
