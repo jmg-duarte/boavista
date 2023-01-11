@@ -92,9 +92,13 @@
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"*.builtin":{"fontStyle": "bold"},
-		"*.deprecated": {"fontStyle": "strikethrough"},
-		"*.controlFlow":{
+		"*.builtin": {
+			"fontStyle": "bold"
+		},
+		"*.deprecated": {
+			"fontStyle": "strikethrough"
+		},
+		"*.controlFlow": {
 			"fontStyle": "italic"
 		},
 		"class": {
@@ -105,7 +109,9 @@
 			"foreground": "#2F54B1",
 			"fontStyle": "italic"
 		},
-		"enumMember": {"fontStyle": "underline"},
+		"enumMember": {
+			"fontStyle": "underline"
+		},
 		// Types
 		"type": {
 			"foreground": "#B33305",
@@ -123,8 +129,12 @@
 			"fontStyle": "italic"
 		},
 		// Functions / Methods
-		"method": {"foreground": "#B33305"},
-		"function": {"foreground": "#B33305"},
+		"method": {
+			"foreground": "#B33305"
+		},
+		"function": {
+			"foreground": "#B33305"
+		},
 		"magicFunction": {
 			"foreground": "#B33305",
 			"fontStyle": "italic"
@@ -136,11 +146,25 @@
 		// Variables
 		"variable": "#2F54B1",
 		"property": "#2F54B1",
-		"variable.readonly": {"fontStyle": "underline"},
-		"property.readonly": {"fontStyle": "underline"},
-		"selfKeyword": {"fontStyle": "underline"},
-		"selfParameter": {"fontStyle": "underline"},
-		"selfTypeKeyword": {"fontStyle": "underline"},
+		"variable.readonly": {
+			"fontStyle": "underline"
+		},
+		"property.readonly": {
+			"fontStyle": "underline"
+		},
+		"builtinConstant": {
+			"foreground": "#2F54B1",
+			"fontStyle": "bold"
+		},
+		"selfKeyword": {
+			"fontStyle": "underline"
+		},
+		"selfParameter": {
+			"fontStyle": "underline"
+		},
+		"selfTypeKeyword": {
+			"fontStyle": "underline"
+		},
 	},
 	"tokenColors": [
 		// C54029 - ... - FCF7ED - ... - 102144
