@@ -9,8 +9,8 @@
 		// Editor
 		"editor.background": "#FBF3E9",
 		"editor.foreground": "#102144",
-		"editor.lineHighlightBackground": "#FAECE2",
-		"editor.selectionBackground": "#F8E4DB",
+		"editor.lineHighlightBackground": "#F7E1D3",
+		"editor.selectionBackground": "#F7E1D3",
 		"editor.selectionHighlightBackground": "#F4C7B7",
 		"editorGroup.border": "#F4C7B7",
 		"editorLineNumber.foreground": "#DE9887",
