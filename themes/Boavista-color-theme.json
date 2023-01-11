@@ -141,6 +141,7 @@
 		},
 		// Function Parameters
 		"parameter": {
+			"foreground": "#2F54B1",
 			"fontStyle": "italic"
 		},
 		// Variables
