@@ -281,15 +281,17 @@
 				"foreground": "#C54029",
 			}
 		},
-		{"name": "Python: Decorators",
-	"scope": [
-		"punctuation.definition.decorator.python",
-"entity.name.function.decorator.python",
-"meta.function.decorator.python",
-	],
-"settings": {
-	"foreground": "#B33305",
-}}
+		{
+			"name": "Python: Decorators",
+			"scope": [
+				"punctuation.definition.decorator.python",
+				"entity.name.function.decorator.python",
+				"meta.function.decorator.python",
+			],
+			"settings": {
+				"foreground": "#B33305",
+			}
+		}
 		// {
 		// 	"name": "Variables",
 		// 	"scope": [
