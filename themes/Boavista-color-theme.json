@@ -95,6 +95,11 @@
 		"editorBracketHighlight.foreground3": "#088A45",
 		// Inlay hints
 		"editorInlayHint.background": "#f4c7b7ac",
+		// Peek View
+		"peekView.border": "#CC5640",
+		"peekViewEditor.background": "#fbf7ef",
+		"peekViewTitle.background": "#F3E5D9",
+		"peekViewResult.background": "#FBF3E9",
 		// TODO: editorCodeLens
 	},
 	"semanticHighlighting": true,
