@@ -93,6 +93,7 @@
 		"editorBracketHighlight.foreground2": "#992511",
 		"editorBracketHighlight.foreground3": "#088A45",
 		// TODO: editorCodeLens
+		"debugToolBar.background": "#FBF3E9",
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
