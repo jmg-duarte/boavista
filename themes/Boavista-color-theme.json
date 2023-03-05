@@ -367,5 +367,15 @@
 				"fontStyle": "italic"
 			}
 		},
+		{
+			"name": "YAML: True, False, Null",
+			"scope": [
+				"constant.language.boolean.yaml",
+				"constant.language.null.yaml",
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		}
 	]
 }
