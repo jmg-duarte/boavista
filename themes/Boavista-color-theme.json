@@ -45,6 +45,7 @@
 		// Debug
 		"statusBar.debuggingBackground": "#DE9887",
 		"statusBar.debuggingForeground": "#fbf7ef",
+		"debugToolBar.background": "#FBF3E9",
 		// Bottom panel
 		"panel.border": "#F4C7B7",
 		"panelTitle.activeForeground": "#102144",
@@ -92,8 +93,9 @@
 		"editorBracketHighlight.foreground1": "#2A5DDE",
 		"editorBracketHighlight.foreground2": "#992511",
 		"editorBracketHighlight.foreground3": "#088A45",
+		// Inlay hints
+		"editorInlayHint.background": "#f4c7b7ac",
 		// TODO: editorCodeLens
-		"debugToolBar.background": "#FBF3E9",
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
