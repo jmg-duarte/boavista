@@ -6,12 +6,20 @@
 	"colors": {
 		// Focus border - global unless specified by the element
 		"focusBorder": "#CC5640",
-		// Editor
+		// Editor (https://code.visualstudio.com/api/references/theme-color#editor-colors)
 		"editor.background": "#FBF3E9",
 		"editor.foreground": "#102144",
 		"editor.lineHighlightBackground": "#F7E1D3",
-		"editor.selectionBackground": "#F7E1D3",
-		"editor.selectionHighlightBackground": "#F4C7B7",
+		"editor.selectionBackground": "#c2d3ff54",
+		"editor.selectionHighlightBorder": "#759CFF",
+		// This is like the "auto selection for same content VSCode"
+		"editor.wordHighlightBackground": "#c2d3ff54",
+		"editor.wordHighlightBorder": "#759CFF",
+		// The find ones (look into the missing ones here)
+		"editor.findMatchHighlightBackground":"#c2d3ff54",
+		"editor.findMatchHighlightBorder":"#759CFF",
+		"editor.hoverHighlightBackground": "#c2d3ff54",
+		"editorUnicodeHighlight.border": "#c54029",
 		"editorGroup.border": "#F4C7B7",
 		"editorLineNumber.foreground": "#DE9887",
 		"editorLineNumber.activeForeground": "#c54029",
