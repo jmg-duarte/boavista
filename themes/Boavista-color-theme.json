@@ -9,7 +9,7 @@
 		// Editor (https://code.visualstudio.com/api/references/theme-color#editor-colors)
 		"editor.background": "#FBF3E9",
 		"editor.foreground": "#102144",
-		"editor.lineHighlightBackground": "#F7E1D3",
+		"editor.lineHighlightBackground": "#f7e1d39f",
 		"editor.selectionBackground": "#c2d3ff54",
 		"editor.selectionHighlightBorder": "#759CFF",
 		// This is like the "auto selection for same content VSCode"
@@ -102,7 +102,8 @@
 		"editorBracketHighlight.foreground2": "#992511",
 		"editorBracketHighlight.foreground3": "#088A45",
 		// Inlay hints
-		"editorInlayHint.background": "#f4c7b7ac",
+		"editorInlayHint.background": "#f4c7b74c",
+		"editorInlayHint.foreground": "#5b5b5b",
 		// Peek View
 		"peekView.border": "#CC5640",
 		"peekViewEditor.background": "#fbf7ef",
