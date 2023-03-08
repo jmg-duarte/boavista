@@ -108,9 +108,9 @@
 		"peekViewTitle.background": "#FAEAE0",
 		"peekViewResult.background": "#FBF3E9",
 		// Scrollbar
-		"scrollbarSlider.background": "#c540295a",
-		"scrollbarSlider.hoverBackground": "#c5402974",
-		"scrollbarSlider.activeBackground": "#c540298d",
+		"scrollbarSlider.background": "#f4c7b760",
+		"scrollbarSlider.hoverBackground": "#f4c7b782",
+		"scrollbarSlider.activeBackground": "#f4c7b7a3",
 		// TODO: editorCodeLens
 	},
 	"semanticHighlighting": true,
