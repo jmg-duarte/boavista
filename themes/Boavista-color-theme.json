@@ -136,6 +136,7 @@
 			"fontStyle": "italic"
 		},
 		"enum": {
+			"foreground": "#B33305",
 			"fontStyle": "underline"
 		},
 		"enumMember": {
