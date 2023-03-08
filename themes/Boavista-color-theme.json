@@ -107,6 +107,10 @@
 		"peekViewEditor.background": "#FDF1E7",
 		"peekViewTitle.background": "#FAEAE0",
 		"peekViewResult.background": "#FBF3E9",
+		// Scrollbar
+		"scrollbarSlider.background": "#c540295a",
+		"scrollbarSlider.hoverBackground": "#c5402974",
+		"scrollbarSlider.activeBackground": "#c540298d",
 		// TODO: editorCodeLens
 	},
 	"semanticHighlighting": true,
