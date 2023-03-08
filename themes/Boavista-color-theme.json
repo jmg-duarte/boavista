@@ -50,7 +50,7 @@
 		// No Folder
 		"statusBar.noFolderBackground": "#F5DED0",
 		// Debug
-		"statusBar.debuggingBackground": "#DE9887",
+		"statusBar.debuggingBackground": "#c54029",
 		"statusBar.debuggingForeground": "#fbf7ef",
 		"debugToolBar.background": "#FBF3E9",
 		// Bottom panel
