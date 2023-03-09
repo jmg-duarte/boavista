@@ -222,9 +222,11 @@
 			"fontStyle": "italic",
 			"foreground": "#2F54B1"
 		},
+		"*.async": {
+			"fontStyle": "bold italic"
+		}
 	},
 	"tokenColors": [
-		// C54029 - ... - FCF7ED - ... - 102144
 		{
 			"name": "Comments",
 			"scope": [
