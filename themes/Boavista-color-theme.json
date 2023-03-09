@@ -46,7 +46,7 @@
 		// Bottom bar
 		"statusBar.background": "#F5DED0",
 		"statusBar.foreground": "#102144",
-		// "statusBar.border": "#F4C7B7",
+		"statusBar.border": "#F4C7B7",
 		// No Folder
 		"statusBar.noFolderBackground": "#F5DED0",
 		// Debug
@@ -108,9 +108,9 @@
 		"peekViewTitle.background": "#FAEAE0",
 		"peekViewResult.background": "#FBF3E9",
 		// Scrollbar
-		"scrollbarSlider.background": "#f4c7b760",
-		"scrollbarSlider.hoverBackground": "#f4c7b782",
-		"scrollbarSlider.activeBackground": "#f4c7b7a3",
+		"scrollbarSlider.background": "#f4c7b740",
+		"scrollbarSlider.hoverBackground": "#f4c7b760",
+		"scrollbarSlider.activeBackground": "#f4c7b790",
 		// TODO: editorCodeLens
 	},
 	"semanticHighlighting": true,
