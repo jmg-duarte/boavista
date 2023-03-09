@@ -8,7 +8,7 @@ _The light theme trying to keep your eyes from burning!_
 
 ![Rust Screenshot](static/rust_screenshot.png)
 
-Currently, Boavista officialy supports the following languages:
+Currently, Boavista officially supports the following languages:
 
 - Rust
 - Python
