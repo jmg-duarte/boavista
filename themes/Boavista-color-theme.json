@@ -409,6 +409,20 @@
 			"settings": {
 				"fontStyle": "bold"
 			}
+		},
+		{
+			"name": "Java: new keyword",
+			"scope": ["keyword.control.new.java"],
+			"settings": {
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "Java: this keyword",
+			"scope": ["variable.language.this.java"],
+			"settings": {
+				"fontStyle": "bold"
+			}
 		}
 	]
 }
