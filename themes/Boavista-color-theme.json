@@ -222,6 +222,9 @@
 			"fontStyle": "italic",
 			"foreground": "#2F54B1"
 		},
+		"namespace": {
+			"fontStyle": "italic"
+		}
 	},
 	"tokenColors": [
 		{
