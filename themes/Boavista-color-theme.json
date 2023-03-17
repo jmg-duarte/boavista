@@ -23,11 +23,11 @@
 		"editor.findMatchHighlightBackground": "#c2d3ff54",
 		"editor.findMatchHighlightBorder": "#759cff",
 		"editor.hoverHighlightBackground": "#c2d3ff54",
-		"editorUnicodeHighlight.border": "#c54029",
+		"editorUnicodeHighlight.border": "#cc5640",
 		"editorGroup.border": "#f4c7b7",
 		"editorGroupHeader.tabsBorder": "#f4c7b7",
 		"editorLineNumber.foreground": "#de9887",
-		"editorLineNumber.activeForeground": "#c54029",
+		"editorLineNumber.activeForeground": "#cc5640",
 		"editorWidget.background": "#fdf1e7",
 		"editorWidget.foreground": "#102144",
 		"editorWidget.border": "#f4c7b7",
@@ -35,13 +35,13 @@
 		// Tabs
 		"tab.hoverBackground": "#fdf1e7",
 		"tab.border": "#f4c7b7",
-		"tab.activeBorderTop": "#c54029",
+		"tab.activeBorderTop": "#cc5640",
 		"tab.inactiveBackground": "#F8E4D8",
 		"tab.activeBorder": "#fdf1e7",
 		// Activity bars
 		"activityBar.background": "#F8E4D8",
 		"activityBar.foreground": "#102144",
-		"activityBarBadge.background": "#c54029",
+		"activityBarBadge.background": "#cc5640",
 		"activityBarBadge.foreground": "#fdf1e7",
 		"activityBar.border": "#f4c7b7",
 		// Side bar
@@ -57,13 +57,13 @@
 		// No Folder
 		"statusBar.noFolderBackground": "#F8E4D8",
 		// Debug
-		"statusBar.debuggingBackground": "#c54029",
+		"statusBar.debuggingBackground": "#cc5640",
 		"statusBar.debuggingForeground": "#fdf1e7",
 		"debugToolBar.background": "#fdf1e7",
 		"debugConsole.infoForeground": "#102144",
 		// Bottom panel
 		"terminal.background": "#F8E4D8",
-		"panelTitle.activeBorder": "#c54029",
+		"panelTitle.activeBorder": "#cc5640",
 		"panel.border": "#f4c7b7",
 		"panel.background": "#F8E4D8",
 		"panelTitle.activeForeground": "#102144",
@@ -91,11 +91,11 @@
 		"quickInputList.focusIconForeground": "#102144",
 		// Buttons
 		"button.foreground": "#fdf1e7",
-		"button.background": "#c54029",
-		"button.hoverBackground": "#b33305", // Rust color
+		"button.background": "#cc5640",
+		"button.hoverBackground": "#cc5640", // Rust color
 		"button.separator": "#fdf1e7",
 		// Checkbox
-		"checkbox.foreground": "#c54029",
+		"checkbox.foreground": "#cc5640",
 		"checkbox.background": "#F3CFBA",
 		// Dropdown
 		"dropdown.background": "#fdf1e7",
