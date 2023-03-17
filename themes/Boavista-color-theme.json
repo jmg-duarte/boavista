@@ -123,6 +123,10 @@
 		// Breadcrumbs
 		"breadcrumb.focusForeground": "#102144",
 		// TODO: editorCodeLens
+		"notebook.cellBorderColor": "#f4c7b7",
+		"notebook.cellEditorBackground": "#fdf1e7",
+		"notebook.editorBackground": "#F8E4D8",
+		"notebook.focusedCellBorder": "#cc5640"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
