@@ -117,9 +117,9 @@
 		"peekViewResult.selectionBackground": "#F3CFBA",
 		"peekViewResult.selectionForeground": "#102144",
 		// Scrollbar
-		"scrollbarSlider.background": "#f4c7b740",
-		"scrollbarSlider.hoverBackground": "#f4c7b760",
-		"scrollbarSlider.activeBackground": "#f4c7b790",
+		"scrollbarSlider.background": "#f4c7b760",
+		"scrollbarSlider.hoverBackground": "#f4c7b790",
+		"scrollbarSlider.activeBackground": "#f4c7b7B0",
 		// Breadcrumbs
 		"breadcrumb.focusForeground": "#102144",
 		// TODO: editorCodeLens
