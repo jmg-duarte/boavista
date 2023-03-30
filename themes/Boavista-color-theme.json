@@ -193,6 +193,9 @@
 		// Variables
 		"variable": "#2f54b1",
 		"property": "#2f54b1",
+		"*.constant": {
+			"fontStyle": "bold"
+		},
 		"variable.readonly": {
 			"fontStyle": "underline"
 		},
