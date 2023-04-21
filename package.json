@@ -25,6 +25,11 @@
         "label": "Boavista",
         "uiTheme": "vs",
         "path": "./themes/Boavista-color-theme.json"
+      },
+      {
+        "label": "B",
+        "uiTheme": "vs",
+        "path": "./themes/B-color-theme.json"
       }
     ]
   },
