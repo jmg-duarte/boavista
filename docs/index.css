@@ -27,6 +27,7 @@ p {
 
 #subheader h2 {
     font-weight: normal;
+    min-width: 400px;
 }
 
 #screenshot {
