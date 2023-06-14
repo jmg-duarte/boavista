@@ -1,7 +1,8 @@
 body {
     background-color: rgb(251, 241, 232);
-    font-family: 'Recursive', monospace;
-    font-size: 12;
+    font-family: 'Hanken Grotesk', 'Recursive', monospace;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 p {
@@ -23,10 +24,11 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 10px;
+
+    font-weight: 500;
 }
 
 #subheader h2 {
-    font-weight: normal;
     min-width: 400px;
 }
 
@@ -35,4 +37,8 @@ p {
     min-width: 600px;
     width: 800px;
     height: auto;
+}
+
+#license {
+    font-size: 14px;
 }
