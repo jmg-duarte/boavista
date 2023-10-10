@@ -36,9 +36,10 @@
   },
   "scripts": {
     "package": "vsce package",
-    "publish": "vsce publish",
+    "publish": "vsce publish jmg-duarte",
     "patch": "npm version patch -m 'release: %s'",
     "minor": "npm version minor -m 'release: %s'",
-    "major": "npm version major -m 'release: %s'"
+    "major": "npm version major -m 'release: %s'",
+    "test": "echo $WHAT"
   }
 }
