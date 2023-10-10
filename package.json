@@ -36,7 +36,8 @@
   },
   "scripts": {
     "package": "vsce package",
-    "publish": "vsce publish jmg-duarte",
+    "login": "vsce login jmg-duarte",
+    "publish": "vsce publish",
     "patch": "npm version patch -m 'release: %s'",
     "minor": "npm version minor -m 'release: %s'",
     "major": "npm version major -m 'release: %s'",
