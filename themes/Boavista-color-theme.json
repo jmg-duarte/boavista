@@ -19,6 +19,8 @@
 		// This is like the "auto selection for same content VSCode"
 		"editor.wordHighlightBackground": "#c2d3ff54",
 		"editor.wordHighlightBorder": "#759cff",
+		"editor.rangeHighlightBackground": "#f7e1d39f",
+		"editor.rangeHighlightBorder": "#f4c7b7",
 		// The find ones (look into the missing ones here)
 		"editor.findMatchHighlightBackground": "#c2d3ff54",
 		"editor.findMatchHighlightBorder": "#759cff",
