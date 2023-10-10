@@ -130,6 +130,9 @@
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
+		"operator": {
+			"fontStyle": "",
+		},
 		"*.builtin": {
 			"fontStyle": "bold"
 		},
