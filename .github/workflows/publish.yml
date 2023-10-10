@@ -1,0 +1,17 @@
+name: Publish Boavista
+
+on:
+  push:
+    tags:
+      # https://stackoverflow.com/a/61892639
+      - "**"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm ci
+      - run: vsce publish
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
