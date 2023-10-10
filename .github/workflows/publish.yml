@@ -5,6 +5,7 @@ on:
     tags:
       # https://stackoverflow.com/a/61892639
       - "**"
+  workflow_dispatch:
 
 jobs:
   publish:
