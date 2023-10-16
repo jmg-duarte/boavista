@@ -176,9 +176,6 @@
 			"foreground": "#b33305",
 			"fontStyle": "italic"
 		},
-		"*.typeHintComment": {
-			"fontStyle": "italic"
-		},
 		// Functions / Methods
 		"method": {
 			"foreground": "#b33305"
@@ -257,7 +254,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				// "fontStyle": "italic",
 				"foreground": "#6d6d6d"
 			}
 		},
