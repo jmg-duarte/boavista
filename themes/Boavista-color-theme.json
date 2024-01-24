@@ -477,6 +477,7 @@
         "storage.modifier.ts",
         "storage.type.class.ts",
         "storage.type.function.ts",
+        "storage.type.interface.ts",
         "storage.type.namespace.ts",
         "storage.type.ts",
         "storage.type.type.ts"
@@ -513,6 +514,7 @@
         "storage.modifier.js",
         "storage.type.class.js",
         "storage.type.function.js",
+        "storage.type.interface.js",
         "storage.type.js",
         "storage.type.namespace.js",
         "storage.type.type.js"
