@@ -25,6 +25,11 @@
         "label": "Boavista",
         "uiTheme": "vs",
         "path": "./themes/Boavista-color-theme.json"
+      },
+      {
+        "label": "Boavista Sunset (Beta)",
+        "uiTheme": "vs",
+        "path": "./themes/Boavista-Sunset-color-theme.json"
       }
     ]
   },
