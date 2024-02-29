@@ -16,6 +16,7 @@
     "button.separator": "#FAE8DC",
     "checkbox.background": "#F3CFBA",
     "checkbox.foreground": "#cc5640",
+    "commandCenter.border": "#f4c7b7",
     "debugConsole.infoForeground": "#102144",
     "debugToolBar.background": "#FAE8DC",
     "dropdown.background": "#FAE8DC",
@@ -35,6 +36,7 @@
     "editorBracketHighlight.foreground2": "#992511",
     "editorBracketHighlight.foreground3": "#088a45",
     "editorBracketHighlight.foreground4": "#6a18c2",
+    "editorCommentsWidget.replyInputBackground": "#FAE8DC",
     "editorGroup.border": "#f4c7b7",
     "editorGroupHeader.tabsBackground": "#F6DAC9",
     "editorGroupHeader.tabsBorder": "#f4c7b7",
@@ -46,6 +48,10 @@
     "editorWidget.background": "#FAE8DC",
     "editorWidget.border": "#f4c7b7",
     "editorWidget.foreground": "#102144",
+    "extensionButton.background": "#cc5640",
+    "extensionButton.foreground": "#FAE8DC",
+    "extensionButton.hoverBackground": "#cc5640", // Rust color
+    "extensionButton.separator": "#FAE8DC",
     "focusBorder": "#cc5640",
     "input.background": "#FAE8DC",
     "input.border": "#f4c7b7",
@@ -67,6 +73,7 @@
     "notifications.background": "#FAE8DC",
     "panel.background": "#F6DAC9",
     "panel.border": "#f4c7b7",
+    "panelInput.border": "#f4c7b7",
     "panelTitle.activeBorder": "#cc5640",
     "panelTitle.activeForeground": "#102144",
     "panelTitle.inactiveForeground": "#102144",
@@ -100,16 +107,10 @@
     "tab.hoverBackground": "#FAE8DC",
     "tab.inactiveBackground": "#F6DAC9",
     "terminal.background": "#F6DAC9",
+    "textSeparator.foreground": "#f4c7b7",
     "titleBar.activeBackground": "#F6DAC9",
     "titleBar.border": "#f4c7b7",
-    "titleBar.inactiveBackground": "#F6DAC9",
-    "panelInput.border": "#f4c7b7",
-    "editorCommentsWidget.replyInputBackground": "#FAE8DC",
-    "textSeparator.foreground": "#f4c7b7",
-    "extensionButton.background": "#cc5640",
-    "extensionButton.foreground": "#FAE8DC",
-    "extensionButton.hoverBackground": "#cc5640", // Rust color
-    "extensionButton.separator": "#FAE8DC"
+    "titleBar.inactiveBackground": "#F6DAC9"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
