@@ -1,6 +1,4 @@
 {
-  // Palette: https://coolors.co/b33305-c54029-d26b57-df9585-f9e9e0-366d5f-2f54b1-1c346e-102144
-  // Useful resource: https://meyerweb.com/eric/tools/color-blend/
   "name": "Boavista",
   "colors": {
     "activityBar.background": "#F8E4D8",
@@ -16,7 +14,11 @@
     "button.separator": "#fdf1e7",
     "checkbox.background": "#F3CFBA",
     "checkbox.foreground": "#cc5640",
+    "commandCenter.activeBackground": "#fdf1e7",
+    "commandCenter.activeBorder": "#f4c7b7",
+    "commandCenter.background": "#F8E4D8",
     "commandCenter.border": "#f4c7b7",
+    "commandCenter.inactiveBorder": "#f4c7b7",
     "debugConsole.infoForeground": "#102144",
     "debugToolBar.background": "#fdf1e7",
     "dropdown.background": "#fdf1e7",
