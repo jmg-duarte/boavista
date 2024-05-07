@@ -274,22 +274,15 @@
     },
     {
       "name": "Fallback: Types",
-      "scope": ["entity.name.type", "support.type"],
+      "scope": ["entity.name.type", "support.type", "storage.type"],
       "settings": {
         "foreground": "#2f54b1",
         "fontStyle": ""
       }
     },
-
     {
       "name": "Fallback: Control Flow",
-      "scope": [
-        "keyword.control.flow",
-        "keyword.control.trycatch",
-        "keyword.control.conditional",
-        "keyword.control.loop",
-        "keyword.control.switch"
-      ],
+      "scope": ["keyword.control"],
       "settings": {
         "fontStyle": "bold"
       }
@@ -360,6 +353,20 @@
       "name": "Fallback: Event",
       "scope": ["variable.other.event"],
       "settings": {}
+    },
+    {
+      "name": "Fallback: Keywords",
+      "scope": [
+        "keyword.function",
+        "keyword.control",
+        "keyword.var",
+        "keyword.type",
+        "keyword.package",
+        "keyword.interface"
+      ],
+      "settings": {
+        "foreground": "#b33305"
+      }
     },
     {
       "name": "Python: Decorators",
