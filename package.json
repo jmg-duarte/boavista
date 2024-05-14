@@ -22,12 +22,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "Boavista",
+        "label": "Boavista (Deprecated)",
         "uiTheme": "vs",
         "path": "./themes/Boavista-color-theme.json"
       },
       {
-        "label": "Boavista Sunset (Beta)",
+        "label": "Boavista Sunset",
         "uiTheme": "vs",
         "path": "./themes/Boavista-Sunset-color-theme.json"
       }
