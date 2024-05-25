@@ -47,6 +47,7 @@
     "editorInlayHint.foreground": "#102144c0",
     "editorLineNumber.activeForeground": "#cc5640",
     "editorLineNumber.foreground": "#de9887",
+    "editorStickyScrollHover.background": "#f8decdcf",
     "editorUnicodeHighlight.border": "#cc5640",
     "editorWidget.background": "#FAE8DC",
     "editorWidget.border": "#f4c7b7",
