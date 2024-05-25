@@ -127,7 +127,7 @@
     "titleBar.border": "#f4c7b7",
     "titleBar.inactiveBackground": "#F6DAC9",
     // Gitlens specific (do not sort with the rest)
-    "gitlens.gutterBackgroundColor": "#F6DAC9",
+    "gitlens.gutterBackgroundColor": "#F6DAC900",
     "gitlens.gutterForegroundColor": "#102144",
     "gitlens.trailingLineForegroundColor": "#cc56408f"
   },
