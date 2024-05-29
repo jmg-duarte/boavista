@@ -133,6 +133,7 @@
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
+    // Having `"fontStyle": ""` will override the regular tokens!!
     "class": {
       "foreground": "#2f54b1",
       "fontStyle": ""
@@ -192,7 +193,6 @@
       "fontStyle": "bold"
     },
     "keyword": {
-      "fontStyle": "",
       "foreground": "#b33305"
     },
     "namespace": {
