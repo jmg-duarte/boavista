@@ -10,7 +10,7 @@
     "button.background": "#cc5640",
     "button.foreground": "#FAE8DC",
     "button.hoverBackground": "#cc5640", // Rust color
-    "button.secondaryBackground": "#000000",
+    "button.secondaryBackground": "#102144",
     "button.separator": "#FAE8DC",
     "checkbox.background": "#F3CFBA",
     "checkbox.foreground": "#cc5640",
