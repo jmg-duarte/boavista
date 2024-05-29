@@ -298,13 +298,6 @@
       }
     },
     {
-      "name": "Fallback: Control Flow",
-      "scope": ["keyword.control"],
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
-    {
       "name": "Fallback: Struct",
       "scope": ["storage.type.struct"],
       "settings": {
@@ -624,6 +617,13 @@
       "settings": {
         "foreground": "#276E48",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Go: Control Flow",
+      "scope": ["keyword.control.go"],
+      "settings": {
+        "fontStyle": "bold"
       }
     }
   ]
