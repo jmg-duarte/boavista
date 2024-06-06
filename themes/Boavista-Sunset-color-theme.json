@@ -169,19 +169,19 @@
     },
     // Macro related
     "macro": {
-      "foreground": "#804fb3"
+      "foreground": "#7242a6"
     },
     "builtinAttribute": {
-      "foreground": "#804fb3"
+      "foreground": "#7242a6"
     },
     "decorator": {
-      "foreground": "#804fb3"
+      "foreground": "#7242a6"
     },
     "deriveHelper": {
-      "foreground": "#804fb3"
+      "foreground": "#7242a6"
     },
-    "attribute": "#804fb3",
-    "attributeBracket": "#804fb3",
+    "attribute": "#7242a6",
+    "attributeBracket": "#7242a6",
     // Functions / Methods
     "method": {},
     "function": {},
@@ -340,7 +340,7 @@
       "name": "Fallback: Macro",
       "scope": ["entity.name.function.macro"],
       "settings": {
-        "foreground": "#804fb3"
+        "foreground": "#7242a6"
       }
     },
     {
@@ -390,7 +390,7 @@
         "meta.function.decorator.python"
       ],
       "settings": {
-        "foreground": "#804fb3"
+        "foreground": "#7242a6"
       }
     },
     {
