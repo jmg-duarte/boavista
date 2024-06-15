@@ -410,6 +410,13 @@
       }
     },
     {
+      "name": "Python Control Flow",
+      "scope": ["keyword.control.flow.python"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "JS & TS (X) Keyword",
       "scope": [
         "constant.language.boolean.false.js",
