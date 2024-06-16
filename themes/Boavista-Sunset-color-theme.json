@@ -573,6 +573,50 @@
       }
     },
     {
+      "name": "JS & TS (X): Control",
+      "scope": [
+        "keyword.control.as.js",
+        "keyword.control.as.jsx",
+        "keyword.control.as.ts",
+        "keyword.control.as.tsx",
+        "keyword.control.conditional.js",
+        "keyword.control.conditional.jsx",
+        "keyword.control.conditional.ts",
+        "keyword.control.conditional.tsx",
+        "keyword.control.export.js",
+        "keyword.control.export.jsx",
+        "keyword.control.export.ts",
+        "keyword.control.export.tsx",
+        "keyword.control.flow.js",
+        "keyword.control.flow.jsx",
+        "keyword.control.flow.ts",
+        "keyword.control.flow.tsx",
+        "keyword.control.from.js",
+        "keyword.control.from.jsx",
+        "keyword.control.from.ts",
+        "keyword.control.from.tsx",
+        "keyword.control.import.js",
+        "keyword.control.import.jsx",
+        "keyword.control.import.ts",
+        "keyword.control.import.tsx",
+        "keyword.control.loop.js",
+        "keyword.control.loop.jsx",
+        "keyword.control.loop.ts",
+        "keyword.control.loop.tsx",
+        "keyword.control.switch.js",
+        "keyword.control.switch.jsx",
+        "keyword.control.switch.ts",
+        "keyword.control.switch.tsx",
+        "keyword.control.trycatch.js",
+        "keyword.control.trycatch.jsx",
+        "keyword.control.trycatch.ts",
+        "keyword.control.trycatch.tsx"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Markup: Headings",
       "scope": ["markup.heading"],
       "settings": {
