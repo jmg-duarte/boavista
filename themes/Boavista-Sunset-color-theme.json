@@ -680,6 +680,34 @@
       "settings": {
         "fontStyle": "bold"
       }
+    },
+    {
+      "name": "Rust: Control Flow",
+      "scope": ["keyword.control.rust"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Rust: Other",
+      "scope": ["keyword.other.rust", "keyword.other.fn.rust"],
+      "settings": {
+        "foreground": "#b33305"
+      }
+    },
+    {
+      "name": "Rust: Storage",
+      "scope": ["storage.type.rust"],
+      "settings": {
+        "foreground": "#b33305"
+      }
+    },
+    {
+      "name": "Rust: Macros",
+      "scope": ["meta.attribute.rust"],
+      "settings": {
+        "foreground": "#7242a6"
+      }
     }
   ]
 }
