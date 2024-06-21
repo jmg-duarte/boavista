@@ -699,7 +699,7 @@
     },
     {
       "name": "Rust: Storage",
-      "scope": ["storage.type.rust"],
+      "scope": ["storage.type.rust", "storage.modifier.mut.rust"],
       "settings": {
         "foreground": "#b33305"
       }
