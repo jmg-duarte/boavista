@@ -705,6 +705,13 @@
       }
     },
     {
+      "name": "Rust: Constants",
+      "scope": ["constant.language.bool.rust"],
+      "settings": {
+        "foreground": "#b33305"
+      }
+    },
+    {
       "name": "Rust: Macros",
       "scope": ["meta.attribute.rust"],
       "settings": {
