@@ -100,7 +100,7 @@
     "pickerGroup.border": "#f4c7b7",
     "quickInput.background": "#F6DAC9",
     "quickInput.foreground": "#000000",
-    "quickInputList.focusBackground": "#F3CFBA",
+    "quickInputList.focusBackground": "#FAE8DC",
     "quickInputList.focusIconForeground": "#000000",
     "scrollbar.shadow": "#f4c7b7",
     "scrollbarSlider.activeBackground": "#f4c7b7B0",
