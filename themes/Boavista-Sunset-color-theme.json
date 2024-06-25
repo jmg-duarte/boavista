@@ -127,6 +127,8 @@
     "tab.lastPinnedBorder": "#f4c7b7",
     "terminal.background": "#F6DAC9",
     "terminal.dropBackground": "#92b1ff72",
+    "terminalStickyScroll.background": "#F6DAC9",
+    "terminalStickyScrollHover.background": "#FAE8DC90",
     "textLink.foreground": "#2A5DDE",
     "textSeparator.foreground": "#f4c7b7",
     "titleBar.activeBackground": "#F6DAC9",
