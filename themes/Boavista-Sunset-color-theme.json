@@ -737,6 +737,16 @@
       "settings": {
         "foreground": "#7242a6"
       }
+    },
+    {
+      "name": "TOML: Constants",
+      "scope": [
+        "constant.language.boolean.toml",
+        "constant.numeric.integer.toml"
+      ],
+      "settings": {
+        "foreground": "#b33305"
+      }
     }
   ]
 }
