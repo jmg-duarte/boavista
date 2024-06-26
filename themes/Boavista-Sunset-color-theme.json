@@ -286,7 +286,14 @@
         "constant.language.null.yaml"
       ],
       "settings": {
-        "fontStyle": "bold"
+        "foreground": "#b33305"
+      }
+    },
+    {
+      "name": "YAML: Name Tag",
+      "scope": ["entity.name.tag.yaml"],
+      "settings": {
+        "foreground": "#2f54b1"
       }
     },
     {
