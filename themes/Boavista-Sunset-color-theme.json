@@ -269,7 +269,7 @@
     },
     {
       "name": "Strings: Escape Sequences",
-      "scope": "constant.character.escape",
+      "scope": ["constant.character.escape", "support.other.escape.special"],
       "settings": {
         "foreground": "#c54029",
         "fontStyle": "bold"
