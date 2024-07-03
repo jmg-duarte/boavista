@@ -145,8 +145,8 @@
     "titleBar.border": "#f4c7b7",
     "titleBar.inactiveBackground": "#F6DAC9",
     "toolbar.hoverBackground": "#f4c7b7",
-    "tree.inactiveIndentGuidesStroke": "#EEAD95",
-    "tree.indentGuidesStroke": "#EEAD95",
+    "tree.inactiveIndentGuidesStroke": "#f4c7b7",
+    "tree.indentGuidesStroke": "#f4c7b7",
     // Gitlens specific (do not sort with the rest)
     "gitlens.gutterBackgroundColor": "#F6DAC900",
     "gitlens.gutterForegroundColor": "#000000",
