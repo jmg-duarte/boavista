@@ -247,7 +247,10 @@
     "*.deprecated": {
       "fontStyle": "strikethrough"
     },
-    "comment": "#6d6d6d"
+    "comment": "#6d6d6d",
+    "label": {
+      "fontStyle": "bold"
+    }
   },
   "tokenColors": [
     {
