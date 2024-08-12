@@ -139,7 +139,7 @@
     "terminal.background": "#F6DAC9",
     "terminal.dropBackground": "#92b1ff72",
     "terminalStickyScroll.background": "#F6DAC9",
-    "terminalStickyScrollHover.background": "#FAE8DC90",
+    "terminalStickyScrollHover.background": "#FAE8DC",
     "textLink.foreground": "#2f54b1",
     "textSeparator.foreground": "#f4c7b7",
     "titleBar.activeBackground": "#F6DAC9",
