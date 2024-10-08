@@ -116,6 +116,7 @@
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
+    // Having `"fontStyle": ""` will override the regular tokens!!
     "class": {
       "foreground": "#2f54b1",
       "fontStyle": ""
@@ -147,19 +148,19 @@
     },
     // Macro related
     "macro": {
-      "foreground": "#804fb3"
+      "foreground": "#7242a6"
     },
     "builtinAttribute": {
-      "foreground": "#804fb3"
+      "foreground": "#7242a6"
     },
     "decorator": {
-      "foreground": "#804fb3"
+      "foreground": "#7242a6"
     },
     "deriveHelper": {
-      "foreground": "#804fb3"
+      "foreground": "#7242a6"
     },
-    "attribute": "#804fb3",
-    "attributeBracket": "#804fb3",
+    "attribute": "#7242a6",
+    "attributeBracket": "#7242a6",
     // Functions / Methods
     "method": {},
     "function": {},
@@ -175,7 +176,6 @@
       "fontStyle": "bold"
     },
     "keyword": {
-      "fontStyle": "",
       "foreground": "#b33305"
     },
     "namespace": {
@@ -209,7 +209,10 @@
     "*.deprecated": {
       "fontStyle": "strikethrough"
     },
-    "comment": "#6d6d6d"
+    "comment": "#6d6d6d",
+    "label": {
+      "fontStyle": "bold"
+    }
   },
   "tokenColors": [
     {
@@ -234,7 +237,7 @@
     },
     {
       "name": "Strings: Escape Sequences",
-      "scope": "constant.character.escape",
+      "scope": ["constant.character.escape", "support.other.escape.special"],
       "settings": {
         "foreground": "#c54029",
         "fontStyle": "bold"
@@ -254,7 +257,14 @@
         "constant.language.null.yaml"
       ],
       "settings": {
-        "fontStyle": "bold"
+        "foreground": "#b33305"
+      }
+    },
+    {
+      "name": "YAML: Name Tag",
+      "scope": ["entity.name.tag.yaml"],
+      "settings": {
+        "foreground": "#2f54b1"
       }
     },
     {
@@ -278,13 +288,6 @@
       "settings": {
         "foreground": "#2f54b1",
         "fontStyle": ""
-      }
-    },
-    {
-      "name": "Fallback: Control Flow",
-      "scope": ["keyword.control"],
-      "settings": {
-        "fontStyle": "bold"
       }
     },
     {
@@ -326,7 +329,7 @@
       "name": "Fallback: Macro",
       "scope": ["entity.name.function.macro"],
       "settings": {
-        "foreground": "#804fb3"
+        "foreground": "#7242a6"
       }
     },
     {
@@ -376,7 +379,7 @@
         "meta.function.decorator.python"
       ],
       "settings": {
-        "foreground": "#804fb3"
+        "foreground": "#7242a6"
       }
     },
     {
@@ -393,6 +396,13 @@
       ],
       "settings": {
         "foreground": "#b33305"
+      }
+    },
+    {
+      "name": "Python Control Flow",
+      "scope": ["keyword.control.flow.python"],
+      "settings": {
+        "fontStyle": "bold"
       }
     },
     {
@@ -552,6 +562,50 @@
       }
     },
     {
+      "name": "JS & TS (X): Control",
+      "scope": [
+        "keyword.control.as.js",
+        "keyword.control.as.jsx",
+        "keyword.control.as.ts",
+        "keyword.control.as.tsx",
+        "keyword.control.conditional.js",
+        "keyword.control.conditional.jsx",
+        "keyword.control.conditional.ts",
+        "keyword.control.conditional.tsx",
+        "keyword.control.export.js",
+        "keyword.control.export.jsx",
+        "keyword.control.export.ts",
+        "keyword.control.export.tsx",
+        "keyword.control.flow.js",
+        "keyword.control.flow.jsx",
+        "keyword.control.flow.ts",
+        "keyword.control.flow.tsx",
+        "keyword.control.from.js",
+        "keyword.control.from.jsx",
+        "keyword.control.from.ts",
+        "keyword.control.from.tsx",
+        "keyword.control.import.js",
+        "keyword.control.import.jsx",
+        "keyword.control.import.ts",
+        "keyword.control.import.tsx",
+        "keyword.control.loop.js",
+        "keyword.control.loop.jsx",
+        "keyword.control.loop.ts",
+        "keyword.control.loop.tsx",
+        "keyword.control.switch.js",
+        "keyword.control.switch.jsx",
+        "keyword.control.switch.ts",
+        "keyword.control.switch.tsx",
+        "keyword.control.trycatch.js",
+        "keyword.control.trycatch.jsx",
+        "keyword.control.trycatch.ts",
+        "keyword.control.trycatch.tsx"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Markup: Headings",
       "scope": ["markup.heading"],
       "settings": {
@@ -607,6 +661,62 @@
       "settings": {
         "foreground": "#276E48",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Go: Control Flow",
+      "scope": ["keyword.control.go"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Rust: Control Flow",
+      "scope": ["keyword.control.rust"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Rust: Other",
+      "scope": [
+        "keyword.other.rust",
+        "keyword.other.fn.rust",
+        "keyword.other.crate.rust"
+      ],
+      "settings": {
+        "foreground": "#b33305"
+      }
+    },
+    {
+      "name": "Rust: Storage",
+      "scope": ["storage.type.rust", "storage.modifier.mut.rust"],
+      "settings": {
+        "foreground": "#b33305"
+      }
+    },
+    {
+      "name": "Rust: Constants",
+      "scope": ["constant.language.bool.rust"],
+      "settings": {
+        "foreground": "#b33305"
+      }
+    },
+    {
+      "name": "Rust: Macros",
+      "scope": ["meta.attribute.rust"],
+      "settings": {
+        "foreground": "#7242a6"
+      }
+    },
+    {
+      "name": "TOML: Constants",
+      "scope": [
+        "constant.language.boolean.toml",
+        "constant.numeric.integer.toml"
+      ],
+      "settings": {
+        "foreground": "#b33305"
       }
     }
   ]
