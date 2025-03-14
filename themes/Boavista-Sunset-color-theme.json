@@ -648,6 +648,19 @@
       }
     },
     {
+      "name": "JS & TS (X): Debugger",
+      "scope": [
+        "keyword.other.debugger.js",
+        "keyword.other.debugger.jsx",
+        "keyword.other.debugger.ts",
+        "keyword.other.debugger.tsx"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#b33305"
+      }
+    },
+    {
       "name": "Markup: Headings",
       "scope": ["markup.heading"],
       "settings": {
