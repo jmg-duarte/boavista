@@ -70,6 +70,7 @@
     "extensionButton.hoverBackground": "#cc5640", // Rust color
     "extensionButton.separator": "#FAE8DC",
     "focusBorder": "#cc5640",
+    "git.blame.editorDecorationForeground": "#cc56408f",
     "icon.foreground": "#000000",
     "input.background": "#FAE8DC",
     "input.border": "#f4c7b7",
